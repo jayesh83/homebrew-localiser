@@ -2,7 +2,7 @@ class Localiser < Formula
   desc "CLI tool for processing localisation (converts locale JSON files into JS objects"
   homepage "https://github.com/jayesh83/LocalePush"
   url "https://github.com/jayesh83/LocalePush/releases/download/v0.0.1/LocalePush-0.0.1.jar"
-  sha256 "cdd3612254fb36f913bc2d13cc24a27253743a7daefec9dd7713ccc2028c9e0c"
+  sha256 "de17bb566741207cae05322168c4625b17fdbbf29c6d77a5cf8f063c1985abc4"
   version "v0.0.1"
 
   depends_on "openjdk"
