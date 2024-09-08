@@ -3,7 +3,7 @@ class Localiser < Formula
   homepage "https://github.com/jayesh83/LocalePush"
   url "https://github.com/jayesh83/LocalePush/releases/download/v0.0.1/LocalePush-0.0.1.jar"
   sha256 "cdd3612254fb36f913bc2d13cc24a27253743a7daefec9dd7713ccc2028c9e0c"
-  version "0.0.1"
+  version "v0.0.1"
 
   depends_on "openjdk"
 
