@@ -8,10 +8,10 @@ class Localiser < Formula
   depends_on "openjdk"
 
   def install
-    libexec.install "localiser.jar"
+    libexec.install "LocalePush-0.0.1.jar"
     (bin/"localiser").write <<~EOS
       #!/bin/bash
-      exec java -jar "#{libexec}/localiser.jar" "$@"
+      exec java -jar "#{libexec}/LocalePush-0.0.1.jar" "$@"
     EOS
   end
 
